@@ -50,3 +50,82 @@
     font-size: 20px;
 
 }
+.encabezado h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.columna{
+    display: flex;
+}
+.img-bg{
+   
+    width: 50%;
+    height: 500px;
+}
+.content-col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+}
+.content-col h1{
+    font-size: 40px;
+}
+.content-col p{
+    color: gray;
+    font-size: 20px;
+    
+}
+.content-col p:last-child{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+
+}
+.img-bg.img1{
+    background-image: url("../img/image-transform.jpg");
+    background-size: cover;
+}
+.img-bg.img2{
+    background-image: url("../img/image-stand-out.jpg");
+    background-size: cover;
+
+}
+.img-bg.img3{
+    background-image: url("../img/image-graphic-design.jpg");
+    background-size: cover;
+}
+.img-bg.img4{
+    background-image: url("../img/image-photography.jpg");
+    background-size: cover;
+}
+.learn{
+    color: black;
+    font-size: 20px;
+
+}
+
+.learn-1{
+    text-decoration-color: yellow;
+
+}
+.learn-2{
+    text-decoration-color: rgb(233, 84, 39);
+}
+.img-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 20px;
+    color: black;
+}
